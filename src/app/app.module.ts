@@ -12,7 +12,7 @@ import { MenuComponent } from './menu/menu.component';
     AppComponent,
     HomeComponent,
     ContactComponent,
-    MenuComponent
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
