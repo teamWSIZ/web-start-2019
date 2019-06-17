@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { MenuComponent } from './menu/menu.component';
+import { AirlineComponent } from './airline/airline.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -13,10 +15,12 @@ import { MenuComponent } from './menu/menu.component';
     HomeComponent,
     ContactComponent,
     MenuComponent,
+    AirlineComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [MenuComponent],
   bootstrap: [AppComponent]
