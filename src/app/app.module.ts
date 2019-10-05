@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { MenuComponent } from './menu/menu.component';
 import { NiceFooterComponent } from './nice-footer/nice-footer.component';
+import { LecturesComponent } from './lectures/lectures.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { NiceFooterComponent } from './nice-footer/nice-footer.component';
     ContactComponent,
     MenuComponent,
     NiceFooterComponent,
+    LecturesComponent,
   ],
   imports: [
     BrowserModule,
